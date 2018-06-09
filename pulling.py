@@ -3,7 +3,7 @@ import urllib2
 import requests
 from tqdm import tqdm
 
-for team in tqdm(range(0, 255)):
+for team in tqdm(range(0, 8000)):
     site = "https://www.thebluealliance.com/team/" + str(team)
 
     hdr = {'User-Agent': 'Mozilla/5.0',
